@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .heading {
-  @apply text-4xl md:text-8xl font-bold;
+  @apply text-4xl md:text-6xl xl:text-8xl font-bold;
   font-family: 'Russo One';
 
 }
