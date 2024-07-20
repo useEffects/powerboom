@@ -1,5 +1,5 @@
 {
-  "about-line": "The powerful blend of natural ingredients designed to boost energy, enhance focus, and keep you at your peak performance all day long.",
+  "powerboom": "powerboom",
   "about": [
     "Power Boom is a dynamic and innovative energy drink company committed to providing a powerful boost to your day.",
     "Our energy drinks are designed to energize your body and mind, ensuring you stay active and alert throughout your busy schedule.",
@@ -8,6 +8,12 @@
   "explore-the-taste": "Explore the taste",
   "download-company-profile": "Company profile",
   "mission": "Our mission is to provide a natural and effective energy drink that helps you stay focused, energized, and at your best.",
+  "mission-heading": "Our mission",
   "follow-on-instagram": "Follow us on Instagram",
-  "do-not-miss": "Don't miss out on our latest updates and promotions. Follow us on Instagram to stay in the loop."
+  "do-not-miss": "Don't miss out on our latest updates and promotions. Follow us on Instagram to stay in the loop.",
+  "terms-and-conditions": "Terms and conditions",
+  "privacy-policy": "Privacy policy",
+  "store": "Store",
+  "company-profile": "Company profile",
+  "made-with": "Made with ❤️ by Power Boom"
 }

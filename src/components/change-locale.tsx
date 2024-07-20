@@ -14,7 +14,7 @@ const ChangeLocale = () => {
     const urlSegments = useSelectedLayoutSegments();
 
     const handleLocaleChange = (newLocale: string) => {
-        router.replace(`/${newLocale}/${urlSegments.join('/')}`);
+        window.location.replace(`/${newLocale}/${urlSegments.join('/')}`);
     };
 
     return (
