@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { ParallaxProvider } from "@/components/parallax";
 
 export const metadata: Metadata = {
@@ -13,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="text-white">
       <body>
         <ParallaxProvider>
           {children}

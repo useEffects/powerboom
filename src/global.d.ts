@@ -4,3 +4,5 @@ declare module '@ap.cx/react-fullpage' {
     export const FullPageSections: FC<HTMLAttributes<HTMLDivElement>>
     export const FullpageSection: FC<HTMLAttributes<HTMLDivElement>>
 };
+
+declare module "tailwindcss/lib/util/flattenColorPalette"
