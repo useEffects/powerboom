@@ -11,6 +11,13 @@ import MissionImg from "@/assets/mission.png";
 import ShareDrinkImg from "@/assets/share-drink.jpg";
 import ChangeLocale from '@/components/change-locale';
 import InstagramImg from "@/assets/instagram-1-svgrepo-com.svg"
+import InstagramIcon from '@mui/icons-material/Instagram';
+import XIcon from '@mui/icons-material/X';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import EmailIcon from '@mui/icons-material/Email';
+import Container from '@mui/material/Container';
+import Link from '@mui/material/Link';
 
 export default async function Home({ params: { locale } }: { params: { locale: LocaleTypes } }) {
   const { t } = await createTranslation(locale, "home")
@@ -81,6 +88,35 @@ export default async function Home({ params: { locale } }: { params: { locale: L
         </Carousel>
       </FullpageSection>
       <FullpageSection>
+      <div className="flex flex-col w-full text-white">
+            <div className="flex flex-col md:flex-row md:justify-around md:items-center w-full text-white md:my-8 items-center gap-8 ">
+                <div className='flex my-2'>
+                    <img src={logoImg.src} className='w-full object-contain'></img>
+                </div>
+                <div className='flex md:flex-col gap-4 '>
+                    <Link href="/about" underline="hover" className='text-2xl'>About Us</Link>
+                    <Link href="/contact" underline="hover" className='text-2xl'>Contact Us</Link>
+                    <Link href="/" underline="hover" className='text-2xl'>Products</Link>
+                </div>
+                <div className='flex flex-col  gap-4 '>
+                    <p className='text-xl'>TERMS & CONDITIONS</p>
+                    <p className='text-xl'>PRIVACY POLICY</p>
+                    <p className='text-xl'>STORE</p>
+                </div>
+                <div className='flex justify-center gap-4 my-4'>
+                    <Link href='https://www.instagram.com' underline="none"><InstagramIcon fontSize="large" /></Link>
+                    <Link href='https://www.instagram.com' underline="none"><XIcon fontSize="large" /></Link>
+                    <Link href='https://www.facebook.com' underline="none"><FacebookIcon fontSize="large" /></Link>
+                    <Link href='https://www.facebook.com' underline="none"><YouTubeIcon fontSize="large" /></Link>
+                    <Link href='https://www.facebook.com' underline="none"><EmailIcon fontSize="large" /></Link>
+                </div>
+            </div>
+            <div className='flex flex-col bg-sky-200 w-full text-black py-12'>
+                <div className='flex flex-col my-4 justify-center items-center'>
+                    <p>Made with <span>&#x2764;</span> by Powerboom </p>
+                </div>
+            </div>
+        </div>
 
       </FullpageSection>
     </FullPageSections>
